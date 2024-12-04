@@ -19,7 +19,7 @@ class SecureController extends Controller
     function login(Request $request)
     {
         $credential = $request->validate([
-            'name' => 'required',
+            'username' => 'required',
             'password' => 'required',
         ]);
 

@@ -31,7 +31,7 @@
                             @csrf
                             <div class="mb-3">
                                 <label class="form-label">Username</label>
-                                <input type="text" name="name" id="name" class="form-control" value="{{old('name')}}" autofocus placeholder="...">
+                                <input type="text" name="username" id="username" class="form-control" value="{{old('username')}}" autofocus placeholder="...">
                                 <span class="text-danger">@error('name') {{$message}} @enderror</span>
                             </div>
                             <div class="mb-3">
